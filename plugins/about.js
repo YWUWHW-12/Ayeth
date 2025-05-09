@@ -1,7 +1,7 @@
 const { cmd, commands } = require('../command');
 const os = require("os");
 const { runtime } = require('../lib/functions');
-const { updateEnv, readEnv } = require('../lib/database');
+
 
 cmd({
     pattern: "about",
