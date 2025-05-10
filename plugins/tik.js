@@ -15,8 +15,8 @@ const domain = `https://mr-manul-ofc-apis.vercel.app`;
 
 //=============================================
 cmd({
-    pattern: "tik",
-    alias: ["randomtiktok","tiktok","rtik"],
+    pattern: "tiktok",
+    alias: ["tt"],
     desc: 'Download tiktok random Video',
     use: '.rtik Title',
     react: "🎬",
@@ -46,7 +46,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 3. 𝗔𝗨𝗗𝗜𝗢 🎧
 
 
-> 𝐌𝐚𝐝𝐞 𝐛𝐲 *𝐊𝐀𝐕𝐈𝐃𝐔 𝐑𝐀𝐒𝐀𝐍𝐆𝐀*  🎗️
+> *ᴘᴏᴡᴇʀᴅ ʙʏ  ᴋᴀᴠɪᴅᴜ ʀᴀꜱᴀɴɢᴀ : )*
 `;
 
         const vv = await conn.sendMessage(from, { image: { url: cover }, caption: desc }, { quoted: mek });
