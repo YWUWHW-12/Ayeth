@@ -79,15 +79,15 @@ cmd({
 
 
     // Send the message
-    const sentMessage = await conn.sendMessage(from,{image: {url: `https://i.ibb.co/zwhqLSQ/20250406-120212.jpg`},caption: messageText,
+    const sentMessage = await conn.sendMessage(from,{image: {url: `https://files.catbox.moe/fonwut.jpg`},caption: messageText,
     contextInfo: {
                 mentionedJid: ['94760698006@s.whatsapp.net'], // specify mentioned JID(s) if any
                 groupMentions: [],
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363349375266377@newsletter',
-                    newsletterName: " ®𝐌𝐑 𝐋𝐀𝐊𝐒𝐈𝐃𝐔 💚",
+                    newsletterJid: '120363417070951702@newsletter',
+                    newsletterName: "🎬𝐌𝐎𝐕𝐈𝐄 𝐂𝐈𝐑𝐂𝐋𝐄🎬",
                     serverMessageId: 999
                 }            
             }
@@ -357,8 +357,8 @@ cmd({
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363349375266377@newsletter',
-                    newsletterName: "𝐌𝐑 𝐋𝐀𝐊𝐒𝐈𝐃𝐔 💚",
+                    newsletterJid: '120363417070951702@newsletter',
+                    newsletterName: "🎬𝐌𝐎𝐕𝐈𝐄 𝐂𝐈𝐑𝐂𝐋𝐄🎬",
                     serverMessageId: 999
                 }            
             }
@@ -408,8 +408,8 @@ cmd({
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363349375266377@newsletter',
-                    newsletterName: "®𝐌𝐑 𝐋𝐀𝐊𝐒𝐈𝐃𝐔 💚",
+                    newsletterJid: '120363417070951702@newsletter',
+                    newsletterName: "🎬𝐌𝐎𝐕𝐈𝐄 𝐂𝐈𝐑𝐂𝐋𝐄🎬",
                     serverMessageId: 999
                 }            
             }
@@ -472,8 +472,8 @@ cmd({
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363349375266377@newsletter',
-                    newsletterName: "®𝐌𝐑 𝐋𝐀𝐊𝐒𝐈𝐃𝐔 💚",
+                    newsletterJid: '120363417070951702@newsletter',
+                    newsletterName: "🎬𝐌𝐎𝐕𝐈𝐄 𝐂𝐈𝐑𝐂𝐋𝐄🎬",
                     serverMessageId: 999
                 }            
             }
