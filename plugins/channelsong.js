@@ -20,7 +20,7 @@ function convertYouTubeLink(q) {
 
 cmd({
     pattern: "csong",
-    alias: "play4",
+    alias: "pl",
     desc: "To download songs as voice notes and send to a specific WhatsApp JID or newsletter.",
     react: "🎵",
     category: "download",
