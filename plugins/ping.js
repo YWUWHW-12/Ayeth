@@ -3,7 +3,7 @@ const { cmd, commands } = require('../command');
 
 cmd({
     pattern: "ping",
-    alias: ["speed","pong"],use: '.ping',
+    alias: ["speed","p"],use: '.ping',
     desc: "Check bot's response time.",
     category: "main",
     react: "⚡",
@@ -21,14 +21,14 @@ async (conn, mek, m, { from, quoted, reply }) => {
 
         // Send the ping result
         await conn.sendMessage(from, { 
-            text: `*KAVI SPEED: ${ping}ms*`, 
+            text: `*KAVI MD SPEED : ) : ${ping}ms*`, 
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363349375266377@newsletter',
-                    newsletterName: '⚚𝗠𝗔𝗦𝗧𝗘𝗥⚚',
+                    newsletterJid: '120363416236691740@newsletter',
+                    newsletterName: '*🎵 𝐌𝐄𝐋𝐎𝐃𝐘 𝐕𝐈𝐁𝐄𝐒 🎵*',
                     serverMessageId: 143
                 }
             },
