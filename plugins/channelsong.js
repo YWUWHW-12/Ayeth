@@ -77,8 +77,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363416236691740@newsletter',
-                    newsletterName: "*🎵 𝐌𝐄𝐋𝐎𝐃𝐘 𝐕𝐈𝐁𝐄𝐒 🎵*",
+                    newsletterJid: '120363417070951702@newsletter',
+                    newsletterName: "🎬𝐌𝐎𝐕𝐈𝐄 𝐂𝐈𝐑𝐂𝐋𝐄🎬",
                     serverMessageId: 999
                 }
             }
