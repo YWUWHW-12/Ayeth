@@ -27,7 +27,15 @@ AUTO_STICKER: process.env.AUTO_STICKER || "false",
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/fonwut.jpg",
 MENU_IMG: process.env.MENU_IMG || "https://files.catbox.moe/fonwut.jpg",
-ALIVE_MSG: process.env.ALIVE_MSG || "*👋 Hey, I'm Alive Now. . !",
+ALIVE_MSG: process.env.ALIVE_MSG || "┏━❮ 💜𝐊𝐀𝐕𝐈 - 𝐌𝐃 𝐃𝐄𝐓𝐀𝐋𝐄𝐒💜 ❯━
+┃◈┃🤖 ʙᴏᴛ ɴᴀᴍᴇ :𝐊𝐀𝐕𝐈 𝐌𝐃
+┃◈┃🔖 ᴠᴇʀsɪᴏɴ : 2.0
+┃◈┃📟 ᴘʟᴀᴛғᴏʀᴍ : Linux
+┃◈┃👨‍💻ᴏᴡɴᴇʀ: 𝐊𝐀𝐕𝐈𝐃𝐔 𝐑𝐀𝐒𝐀𝐍𝐆𝐀
+┃◈┃📆 ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())} 
+┃◈┃📈ʀᴀᴍ ᴜsᴀɢᴇ: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
+┃◈┗━━━━━━━━━━━━━━𖣔𖣔
+╰──────────────┈⊷",
 ANTI_LINK: process.env.ANTI_LINK || "true",
 ANTI_BAD: process.env.ANTI_BAD || "true",
 PREFIX: process.env.PREFIX || ".",
