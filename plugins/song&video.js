@@ -20,7 +20,7 @@ function convertYouTubeLink(q) {
 }
 
 cmd({
-    pattern: "song2",
+    pattern: "song3",
     alias: "yt",
     desc: "සින්දු බාගත කිරීමට",
     react: "🎵",
