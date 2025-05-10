@@ -60,11 +60,11 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 const no_watermark = manul.no_watermark;
 
                 const desc = `
-*🎬 ස්වයංක්‍රීය සිංහල වීඩියෝ යැවීම 🎬*
+*🍫🍭 *_𝗞𝗔𝗩𝗜 -𝗠𝗗 𝗦𝗧𝗔𝗧𝗨𝗦 𝗩𝗜𝗗𝗘𝗢_*  🍭🍫*
 
-*මාතෘකාව -:* _~${title}~_
+𝙏𝗶𝘁𝗹𝗲 *➟*  _~${title}~_
 
-*📩 යවන ලද්දේ: ${targetJid}*
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
 > *ᴘᴏᴡᴇʀᴅ ʙʏ  ᴋᴀᴠɪᴅᴜ ʀᴀꜱᴀɴɢᴀ : )*
 `;
 
