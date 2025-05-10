@@ -15,8 +15,8 @@ const domain = `https://mr-manul-ofc-apis.vercel.app`;
 
 //=============================================
 cmd({
-    pattern: "tiktok",
-    alias: ["tt"],
+    pattern: "tiktok2",
+    alias: ["tt2"],
     desc: 'Download tiktok random Video',
     use: '.rtik Title',
     react: "🎬",
