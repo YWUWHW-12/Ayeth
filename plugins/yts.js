@@ -19,7 +19,7 @@ function convertYouTubeLink(q) {
 }
 
 cmd({
-    pattern: "yt",
+    pattern: "yts",
     alias: "ytserach",
     desc: "සින්දු බාගත කිරීමට",
     react: "🎵",
@@ -37,14 +37,14 @@ async (conn, mek, m, { from, quoted, q, reply }) => {
         if (videos.length === 0) return reply("*සින්දු හමු වුණේ නැහැ!*");
 
         // ලිස්ට් එක සකස් කිරීම
-        let listText = `╭━━━〔 *HASHI-MD* 〕━━━┈⊷
+        let listText = `╭━━━〔 *KAVI-MD* 〕━━━┈⊷
 ┃▸╭───────────
-┃▸┃๏ *YOUTUBE SEARCH RESULTS*
+┃▸┃⚆ *YOUTUBE SEARCH RESULTS ⚘*
 ┃▸└───────────···๏
 ╰────────────────┈⊷\n\n🔢 ℙ𝕝𝕖𝕒𝕤𝕖 𝕣𝕖𝕡𝕝𝕪 𝕨𝕚𝕥𝕙 𝕥𝕙𝕖 𝕟𝕦𝕞𝕓𝕖𝕣 𝕪𝕠𝕦 𝕨𝕒𝕟𝕥\n\n`;
         videos.forEach((video, index) => {
             listText += `🔢│➪ *[REPLY NUMBER ${index + 1} ]*\n\n`;
-            listText += `┏━❮💚𝐇𝐀𝐒𝐇𝐈 𝐃𝐄𝐓𝐀𝐋𝐄𝐒💚❯━\n`;
+            listText += `┏━❮💜 𝐃𝐄𝐓𝐀𝐈𝐋𝐒 💜❯━\n`;
             listText += `┃🤖 *ᴛɪᴛʟᴇ :* ${video.title}\n`;
             listText += `┃📑 *ᴅᴜʀᴀᴛɪᴏɴ :* ${video.timestamp}\n`;
             listText += `┃🔖 *ᴠɪᴇᴡꜱ :* ${video.views}\n`;
@@ -52,7 +52,7 @@ async (conn, mek, m, { from, quoted, q, reply }) => {
             listText += `┗━━━━━━━━━━━━━━𖣔𖣔\n\n`;
         });
         listText += `>  ℙ𝕝𝕖𝕒𝕤𝕖 𝕣𝕖𝕡𝕝𝕪 𝕨𝕚𝕥𝕙 𝕥𝕙𝕖 𝕟𝕦𝕞𝕓𝕖𝕣 𝕪𝕠𝕦 𝕨𝕒𝕟𝕥\n`;
-        listText += `> ⚜️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 : ®𝐌𝐑 𝐋𝐀𝐊𝐒𝐈𝐃𝐔 💚`;
+        listText += `> *ᴘᴏᴡᴇʀᴅ ʙʏ  ᴋᴀᴠɪᴅᴜ ʀᴀꜱᴀɴɢᴀ : )*`;
 
         // ලිස්ට් එක යවනවා
         const sentMsg = await conn.sendMessage(from, {
@@ -63,8 +63,8 @@ async (conn, mek, m, { from, quoted, q, reply }) => {
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363349375266377@newsletter',
-                    newsletterName: "®𝐌𝐑 𝐋𝐀𝐊𝐒𝐈𝐃𝐔 💚",
+                    newsletterJid: '120363416236691740@newsletter',
+                    newsletterName: "*🎵 𝐌𝐄𝐋𝐎𝐃𝐘 𝐕𝐈𝐁𝐄𝐒 🎵*",
                     serverMessageId: 999
                 }
             }
@@ -91,9 +91,9 @@ async (conn, mek, m, { from, quoted, q, reply }) => {
                 const url = selectedVideo.url;
 
                 // ඩවුන්ලෝඩ් විකල්ප පෙන්වනවා
-                let desc = `╭━━━〔 *HASHI-MD* 〕━━━┈⊷
+                let desc = `╭━━━〔 *KAVI-MD* 〕━━━┈⊷
 ┃▸╭───────────
-┃▸┃๏ *YOUTUBE DOWNLOADER*
+┃▸┃⚆ *YOUTUBE DOWNLOADER ⚘*
 ┃▸└───────────···๏
 ╰────────────────┈⊷
 ╭━━〔🔢 *ʀᴇᴘʟʏ ɴᴜᴍʙᴇʀ*〕━━┈⊷
@@ -103,20 +103,20 @@ async (conn, mek, m, { from, quoted, q, reply }) => {
 ┃◈┃•3 | ᴅᴏᴡɴʟᴏᴀᴅ ᴠᴏɪᴄᴇ 🎤
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> ⚜️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 : ®𝐌𝐑 𝐋𝐀𝐊𝐒𝐈𝐃𝐔 💚
+> *ᴘᴏᴡᴇʀᴅ ʙʏ  ᴋᴀᴠɪᴅᴜ ʀᴀꜱᴀɴɢᴀ : )*
 `;
-                let info = `> ⚜️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 : ®𝐌𝐑 𝐋𝐀𝐊𝐒𝐈𝐃𝐔 💚`;
+                let info = `> *ᴘᴏᴡᴇʀᴅ ʙʏ  ᴋᴀᴠɪᴅᴜ ʀᴀꜱᴀɴɢᴀ : )*`;
 
                 const optionMsg = await conn.sendMessage(from, {
                     image: { url: selectedVideo.thumbnail },
                     caption: desc,
                     contextInfo: {
-                        mentionedJid: ['94760698006@s.whatsapp.net'],
+                        mentionedJid: ['94762858448@s.whatsapp.net'],
                         forwardingScore: 1,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: '120363349375266377@newsletter',
-                            newsletterName: "®𝐌𝐑 𝐋𝐀� الك𝐒𝐈𝐃𝐔 💚",
+                            newsletterJid: '120363416236691740@newsletter',
+                            newsletterName: "*🎵 𝐌𝐄𝐋𝐎𝐃𝐘 𝐕𝐈𝐁𝐄𝐒 🎵*",
                             serverMessageId: 999
                         }
                     }
