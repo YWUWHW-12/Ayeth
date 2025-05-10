@@ -1393,8 +1393,8 @@ const aliveMessage = await conn.sendMessage(from, {
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363416236691740@newsletter',
-                    newsletterName: "*🎵 𝐌𝐄𝐋𝐎𝐃𝐘 𝐕𝐈𝐁𝐄𝐒 🎵*",
+                    newsletterJid: '120363417070951702@newsletter',
+                    newsletterName: "🎬𝐌𝐎𝐕𝐈𝐄 𝐂𝐈𝐑𝐂𝐋𝐄🎬",
                     serverMessageId: 999
                 }
             }
@@ -1435,13 +1435,13 @@ const aliveMessage = await conn.sendMessage(from, {
                         image: { url: menuImages[messageType] || "https://i.ibb.co/zwhqLSQ/20250406-120212.jpg" },
                         caption: menus[selectedMenu],
                         contextInfo: {
-                            mentionedJid: ['94760698006@s.whatsapp.net'],
+                            mentionedJid: ['94762858448@s.whatsapp.net'],
                             groupMentions: [],
                             forwardingScore: 1,
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
-                                newsletterJid: '120363349375266377@newsletter',
-                                newsletterName: "MASTER",
+                                newsletterJid: '120363417070951702@newsletter',
+                                newsletterName: "🎬𝐌𝐎𝐕𝐈𝐄 𝐂𝐈𝐑𝐂𝐋𝐄🎬",
                                 serverMessageId: 999
                             }
                         }
