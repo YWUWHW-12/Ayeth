@@ -145,7 +145,7 @@ cmd({
     }
 });
 cmd({
-    pattern: "video3",
+    pattern: "video",
     alias: "vid",
     desc: "To download MP4 video or document from YouTube by searching for video names.",
     react: "🎥",
