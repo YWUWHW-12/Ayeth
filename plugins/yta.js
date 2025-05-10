@@ -20,7 +20,7 @@ function convertYouTubeLink(q) {
 }
 
 cmd({
-    pattern: "song3",
+    pattern: "song2",
     alias: "play7",
     desc: "To download songs.",
     react: "🎵",
