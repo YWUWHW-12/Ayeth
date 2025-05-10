@@ -56,7 +56,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         let desc = `
 ┏「✨𝐊𝐀𝐕𝐈 𝐌𝐃 𝐀𝐔𝐃𝐈𝐎✨」
 ┃ 👨‍💻Owner: ᴋᴀᴠɪᴅᴜ ʀᴀꜱᴀɴɢᴀ
-┃ 🤖 Bot Name: ᴷᴬⱽᴵ ᴹᴰ
+┃ 🤖 Bot Name: ᴋᴀᴠɪ ᴍᴅ
 ┗━━━━━━━━━━━━━━━𖣔𖣔
 ┏━❮ 💜𝐒𝐎𝐍𝐆 𝐃𝐄𝐓𝐀𝐈𝐋𝐒💜 ❯━
 ┃🤖 *Title:* ${data.title}
@@ -65,8 +65,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃📟 *Uploaded On:* ${data.ago}
 ┃👨‍💻 Owner: ᴋᴀᴠɪᴅᴜ ʀᴀꜱᴀɴɢᴀ
 ┗━━━━━━━━━━━━━━𖣔𖣔
-> ⚜️Downloading as voice note...
-> ㋛︎ ᴘᴏᴡᴇʀᴅ ʙʏ  ᴍʀ  ʟᴀᴋꜱɪᴅᴜ ᶜᵒᵈᵉʳ
+
+> *ᴘᴏᴡᴇʀᴅ ʙʏ  ᴋᴀᴠɪᴅᴜ ʀᴀꜱᴀɴɢᴀ : )*
 `;
         await conn.sendMessage(jid, {
             image: { url: data.thumbnail },
@@ -77,8 +77,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363349375266377@newsletter',
-                    newsletterName: "> ㋛︎ ᴘᴏᴡᴇʀᴅ ʙʏ  ᴍʀ  ʟᴀᴋꜱɪᴅᴜ ᶜᵒᵈᵉʳ",
+                    newsletterJid: '12036341636691740@newsletter',
+                    newsletterName: "*🎵 𝐌𝐄𝐋𝐎𝐃𝐘 𝐕𝐈𝐁𝐄𝐒 🎵*",
                     serverMessageId: 999
                 }
             }
