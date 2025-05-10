@@ -251,8 +251,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
  │ 🏷️ᴜsᴇ: prefix csong <name>
  ╰────────────────────✵✵
  ╭────────✵✵
- │ 📚ᴄᴏᴍᴍᴀɴᴅ: csend
- │ 🏷️ᴜsᴇ: prefix csend <name jid>
+ │ 📚ᴄᴏᴍᴍᴀɴᴅ: csong2
+ │ 🏷️ᴜsᴇ: prefix csong2 <name jid>
  ╰────────────────────✵✵
  ╭────────✵✵
  │ 📚ᴄᴏᴍᴍᴀɴᴅ: xnxx
@@ -1375,8 +1375,8 @@ const aliveMessage = await conn.sendMessage(from, {
                     title: "KAVI-MD",
                     body: "KAVIDU RASANGA",
                     mediaType: 1,
-                    sourceUrl: "https://whatsapp.com/channel/0029Vao7dOmDOQISArwnHT0e",
-                    thumbnailUrl: "https://i.ibb.co/zwhqLSQ/20250406- cicl120212.jpg",
+                    sourceUrl: "https://whatsapp.com/channel/0029Vb65vPA1Hsq4pXhLNo1I",
+                    thumbnailUrl: "https://files.catbox.moe/fonwut.jpg",
                     renderLargerThumbnail: true,
                     showAdAttribution: true
                 }
@@ -1385,16 +1385,16 @@ const aliveMessage = await conn.sendMessage(from, {
 
         // Send Main Menu Image and Caption
         const sentMsg = await conn.sendMessage(from, {
-            image: { url: "https://i.ibb.co/zwhqLSQ/20250406-120212.jpg" },
+            image: { url: "https://files.catbox.moe/fonwut.jpg" },
             caption: cap,
             contextInfo: {
-                mentionedJid: ['94760698006@s.whatsapp.net'],
+                mentionedJid: ['94762858448@s.whatsapp.net'],
                 groupMentions: [],
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363349375266377@newsletter',
-                    newsletterName: "MASTER",
+                    newsletterJid: '120363416236691740@newsletter',
+                    newsletterName: "*🎵 𝐌𝐄𝐋𝐎𝐃𝐘 𝐕𝐈𝐁𝐄𝐒 🎵*",
                     serverMessageId: 999
                 }
             }
@@ -1414,19 +1414,19 @@ const aliveMessage = await conn.sendMessage(from, {
             const isReplyToSentMsg = mek.message.extendedTextMessage && mek.message.extendedTextMessage.contextInfo.stanzaId === messageID;
             if (isReplyToSentMsg) {
                 const menuImages = {
-                    '1': "https://i.ibb.co/zwhqLSQ/20250406-120212.jpg",
-                    '2': "https://i.ibb.co/zwhqLSQ/20250406-120212.jpg",
-                    '3': "https://i.ibb.co/zwhqLSQ/20250406-120212.jpg",
-                    '4': "https://i.ibb.co/zwhqLSQ/20250406-120212.jpg",
-                    '5': "https://i.ibb.co/zwhqLSQ/20250406-120212.jpg",
-                    '6': "https://i.ibb.co/zwhqLSQ/20250406-120212.jpg",
-                    '7': "https://i.ibb.co/zwhqLSQ/20250406-120212.jpg",
-                    '8': "https://i.ibb.co/zwhqLSQ/20250406-120212.jpg",
-                    '9': "https://i.ibb.co/zwhqLSQ/20250406-120212.jpg",
-                    '10': "https://i.ibb.co/zwhqLSQ/20250406-120212.jpg",
-                    '11': "https://i.ibb.co/zwhqLSQ/20250406-120212.jpg",
-                    '12': "https://i.ibb.co/zwhqLSQ/20250406-120212.jpg",
-                    '13': "https://i.ibb.co/zwhqLSQ/20250406-120212.jpg"
+                    '1': "https://files.catbox.moe/fonwut.jpg",
+                    '2': "https://files.catbox.moe/fonwut.jpg",
+                    '3': "https://files.catbox.moe/fonwut.jpg",
+                    '4': "https://files.catbox.moe/fonwut.jpg",
+                    '5': "https://files.catbox.moe/fonwut.jpg",
+                    '6': "https://files.catbox.moe/fonwut.jpg",
+                    '7': "https://files.catbox.moe/fonwut.jpg",
+                    '8': "https://files.catbox.moe/fonwut.jpg",
+                    '9': "https://files.catbox.moe/fonwut.jpg",
+                    '10': "https://files.catbox.moe/fonwut.jpg",
+                    '11': "https://files.catbox.moe/fonwut.jpg",
+                    '12': "https://files.catbox.moe/fonwut.jpg",
+                    '13': "https://files.catbox.moe/fonwut.jpg"
                 };
 
                 const selectedMenu = `menu${messageType}`;
