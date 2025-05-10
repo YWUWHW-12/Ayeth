@@ -22,12 +22,12 @@ async (conn, mek, m, { from, quoted }) => {
 
         // Construct the message
         const msg = `
-           📺 *SIRASA NEWS* 📺
+📺 *SIRASA NEWS* 📺
 
-*මාතෘකාව* - ${news.title || 'නැත'}
-*පුවත* - ${news.description || 'නැත'}
-*දිනය* - ${news.time || 'නැත'}
-*ලින්ක්* - ${news.new_url || 'නැත'}
+*මාතෘකාව* ➟ ${news.title || 'නැත'}
+*පුවත* ➟ ${news.description || 'නැත'}
+*දිනය* ➟ ${news.time || 'නැත'}
+*ලින්ක්* ➟ ${news.new_url || 'නැත'}
 
 > *ᴘᴏᴡᴇʀᴅ ʙʏ  ᴋᴀᴠɪᴅᴜ ʀᴀꜱᴀɴɢᴀ : )*
         `;
