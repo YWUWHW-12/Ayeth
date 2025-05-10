@@ -60,7 +60,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 const no_watermark = manul.no_watermark;
 
                 const desc = `
-*🍫🍭 *_𝗞𝗔𝗩𝗜 -𝗠𝗗 𝗦𝗧𝗔𝗧𝗨𝗦 𝗩𝗜𝗗𝗘𝗢_*  🍭🍫*
+🎀*𝘒𝘈𝘝𝘐 𝘔𝘋 𝘚𝘛𝘈𝘛𝘜𝘚 𝘝𝘐𝘋𝘌𝘖*🎀
 
 𝙏𝗶𝘁𝗹𝗲 *➟*  _~${title}~_
 
