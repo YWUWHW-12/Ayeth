@@ -79,13 +79,13 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             image: { url: data.thumbnail },
             caption: desc,
             contextInfo: {
-                mentionedJid: ['94727163302@s.whatsapp.net'],
+                mentionedJid: ['94762858448@s.whatsapp.net'],
                 groupMentions: [],
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363401755639074@newsletter',
-                    newsletterName: "LOD X MD FORWARD",
+                    newsletterName: "🎬𝐌𝐎𝐕𝐈𝐄 𝐂𝐈𝐑𝐂𝐋𝐄🎬",
                     serverMessageId: 999
                 }
             }
@@ -198,7 +198,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃🩵 *උඩුගත කළ දින:* ${data.ago}
 ┃🩵 *Owner: ᴋᴀᴠɪᴅᴜ ʀᴀꜱᴀɴɢᴀ
 ┗━━━━━━━━━━━━━━𖣔𖣔
-*「🎧Auto Uploading🎧」*
+*「*🎵 𝐌𝐄𝐋𝐎𝐃𝐘 𝐕𝐈𝐁𝐄𝐒 🎵*」*
 
 > *ᴘᴏᴡᴇʀᴅ ʙʏ  ᴋᴀᴠɪᴅᴜ ʀᴀꜱᴀɴɢᴀ : )*
 `;
