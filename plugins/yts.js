@@ -41,7 +41,7 @@ async (conn, mek, m, { from, quoted, q, reply }) => {
 ┃▸╭───────────
 ┃▸┃⚆ *YOUTUBE SEARCH RESULTS ⚘*
 ┃▸└───────────···๏
-╰────────────────┈⊷\n\n🔢 ℙ𝕝𝕖𝕒𝕤𝕖 𝕣𝕖𝕡𝕝𝕪 𝕨𝕚𝕥𝕙 𝕥𝕙𝕖 𝕟𝕦𝕞𝕓𝕖𝕣 𝕪𝕠𝕦 𝕨𝕒𝕟𝕥\n\n`;
+╰────────────────┈⊷\n\n🔢 *අවශ්‍ය අංකය යොමු කර එවන්න💜*\n\n`;
         videos.forEach((video, index) => {
             listText += `🔢│➪ *[REPLY NUMBER ${index + 1} ]*\n\n`;
             listText += `┏━❮💜 𝐃𝐄𝐓𝐀𝐈𝐋𝐒 💜❯━\n`;
@@ -63,8 +63,8 @@ async (conn, mek, m, { from, quoted, q, reply }) => {
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363416236691740@newsletter',
-                    newsletterName: "*🎵 𝐌𝐄𝐋𝐎𝐃𝐘 𝐕𝐈𝐁𝐄𝐒 🎵*",
+                    newsletterJid: '120363417070951702@newsletter',
+                    newsletterName: "🎬𝐌𝐎𝐕𝐈𝐄 𝐂𝐈𝐑𝐂𝐋𝐄🎬",
                     serverMessageId: 999
                 }
             }
