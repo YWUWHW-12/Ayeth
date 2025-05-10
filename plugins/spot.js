@@ -35,7 +35,7 @@ cmd({
     const results = data.result.slice(0, 7).sort(() => Math.random() - 0.5);
 
     for (const track of results) {
-      const message = `🎶 *HASHI SPOTIFY RESULT 🎶*:\n\n`
+      const message = `🎶 *SPOTIFY RESULT* 🎶:\n\n`
         + `*⚜️ Track Name*: ${track.trackName}\n`
         + `*⚜️ Artist*: ${track.artistName}\n`
         + `*⚜️ Track Number*: ${track.trackNumber}\n`
