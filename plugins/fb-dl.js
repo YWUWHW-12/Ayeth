@@ -37,6 +37,4 @@ cmd({
     reply('❌ Unable to download the Facebook video. Please try again later.');
   }
 });
- later.');
-  }
-});
+ 
